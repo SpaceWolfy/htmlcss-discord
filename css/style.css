@@ -8,8 +8,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.height {
-  height: 640px;
+a {
+  text-decoration: none;
 }
 
 .clearfix::after {
@@ -45,11 +45,27 @@ body {
   color: #22272a;
 }
 
+.blue {
+  background-color: #89a2e6;
+  color: white;
+}
+
 .translate {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.wave {
+  background-image: url("../img/wave.svg");
+  height: 130px;
+}
+
+.wave-rotate {
+  background-image: url("../img/wave.svg");
+  height: 130px;
+  transform: rotate(180deg);
 }
 /* ------------------------------ */
 
@@ -72,7 +88,6 @@ body {
 }
 
 .info-contained a {
-  text-decoration: none;
   font-weight: bold;
   margin: 0 30px;
 }
@@ -129,8 +144,86 @@ body {
 }
 
 .lil-div a {
-  text-decoration: none;
   font-weight: 500;
   margin: 0 12px;
   font-size: 22px;
+}
+
+/* Proprietà primo container */
+
+.container {
+  height: 680px;
+  /* background-color: purple; */
+  width: 1350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container header {
+  height: 130px;
+  /* background-color: royalblue; */
+}
+
+.container-text {
+  margin-top: 40px;
+  width: 40%;
+  /* background-color: saddlebrown; */
+  text-align: left;
+  color: #22272a;
+  padding: 0 80px;
+}
+
+.container-text > h1 {
+  margin-bottom: 35px;
+  font-size: 50px;
+}
+
+.container-text > p {
+  font-size: 22px;
+}
+
+/* Sezione 2 */
+
+.container-overlay {
+  height: 680px;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Sezione 4 */
+.container4 {
+  height: 1000px;
+  /* background-color: purple; */
+  width: 1350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container4 header {
+  height: 130px;
+  /* background-color: royalblue; */
+}
+
+.container4-overlay {
+  height: 1000px;
+  background-color: #f6f6f6;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container4-text {
+  /* background-color: saddlebrown; */
+  color: #22272a;
+  margin-bottom: 40px;
+}
+
+.container4-text > h1 {
+  margin-bottom: 35px;
+  font-size: 55px;
+}
+
+.end-h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
 }

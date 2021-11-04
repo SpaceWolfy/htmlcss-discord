@@ -255,7 +255,7 @@ footer {
   height: 80px;
 }
 
-div.clearfix {
+.footer div.clearfix {
   height: 360px;
   width: 1350px;
   margin: 0 auto;

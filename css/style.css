@@ -27,11 +27,22 @@ body {
 }
 
 .button {
-  border-radius: 20px;
-  background-color: white;
-  color: black;
   display: inline-block;
-  padding: 5px 10px;
+}
+
+.big {
+  border-radius: 30px;
+  padding: 15px 30px;
+}
+
+.black {
+  background-color: #22272a;
+  color: white;
+}
+
+.white {
+  background-color: white;
+  color: #22272a;
 }
 
 .translate {
@@ -42,6 +53,7 @@ body {
 }
 /* ------------------------------ */
 
+/* Impostazione Header */
 .jumbotron {
   background: url("../img/jumbo.png");
   height: 610px;
@@ -59,14 +71,18 @@ body {
   /* margin-top: 20px; */
 }
 
-a {
+.info-contained a {
   text-decoration: none;
   font-weight: bold;
-  color: white;
   margin: 0 30px;
 }
 
+.translate a {
+  color: white;
+}
+
 .small {
+  border-radius: 20px;
   padding: 5px 10px;
   font-size: 12px;
 }
@@ -77,4 +93,44 @@ a {
 
 #navbar > ul {
   list-style: none;
+}
+/*  */
+
+/* Creazione Sezione Header */
+
+.jumbo-section {
+  height: 300px;
+  margin-top: 60px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.translate > h1 {
+  font-size: 60px;
+  margin-bottom: 50px;
+  width: 1200px;
+}
+
+.translate > p {
+  font-size: 22px;
+  width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 35px;
+}
+
+.lil-div {
+  text-align: center;
+}
+
+.down-arrow {
+  padding-right: 5px;
+}
+
+.lil-div a {
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 12px;
+  font-size: 22px;
 }

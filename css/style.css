@@ -48,6 +48,11 @@ a {
 .blue {
   background-color: #89a2e6;
   color: white;
+  font-weight: bold;
+}
+
+.discord-color {
+  color: #5870b0;
 }
 
 .translate {
@@ -66,6 +71,13 @@ a {
   background-image: url("../img/wave.svg");
   height: 130px;
   transform: rotate(180deg);
+}
+
+.footer-div {
+  /*   border: 2px solid white; */
+  height: 100px;
+  width: 12%;
+  padding-top: 10px;
 }
 /* ------------------------------ */
 
@@ -206,7 +218,7 @@ a {
 }
 
 .container4-overlay {
-  height: 1000px;
+  height: 1150px;
   background-color: #f6f6f6;
   margin: 0 auto;
   text-align: center;
@@ -216,6 +228,7 @@ a {
   /* background-color: saddlebrown; */
   color: #22272a;
   margin-bottom: 40px;
+  font-size: 22px;
 }
 
 .container4-text > h1 {
@@ -226,4 +239,84 @@ a {
 .end-h2 {
   font-size: 30px;
   margin-bottom: 35px;
+}
+
+footer {
+  height: 650px;
+  background-color: #22272a;
+}
+
+.footer {
+  margin: 0 auto;
+  width: 1350px;
+}
+
+.footer header {
+  height: 80px;
+}
+
+div.clearfix {
+  height: 360px;
+  width: 1350px;
+  margin: 0 auto;
+  border-bottom: 1px solid #465985;
+}
+
+.footer-div.one {
+  padding: 0;
+  width: 25%;
+}
+
+.footer-div.two {
+  margin-left: 80px;
+}
+
+.footer-div.three {
+  margin: 0 80px;
+}
+
+.footer-div.four {
+  margin-right: 80px;
+}
+
+.footer-text h1 {
+  margin-bottom: 25px;
+}
+
+.footer-div span {
+  color: white;
+}
+
+.footer-div span img {
+  width: 25px;
+}
+
+.social {
+  margin-top: 15px;
+}
+
+.social img {
+  width: 25px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.footer-text p {
+  line-height: 30px;
+  color: white;
+}
+
+.end-of-the-end {
+  position: relative;
+  margin-top: 30px;
+}
+
+.end-of-the-end div:first-child {
+  position: absolute;
+  left: 0;
+}
+
+.end-of-the-end div:last-child {
+  position: absolute;
+  right: 0;
 }

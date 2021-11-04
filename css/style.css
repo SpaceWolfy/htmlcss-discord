@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .height {
   height: 640px;
 }
@@ -18,10 +22,59 @@
   float: left;
 }
 
+.fr {
+  float: right;
+}
+
+.button {
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+.translate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* ------------------------------ */
 
-.top-page-container {
+.jumbotron {
   background: url("../img/jumbo.png");
   height: 610px;
   background-size: cover;
+}
+
+.info-container {
+  /* border: 2px solid black; */
+  margin: 0 auto;
+  width: 1350px;
+}
+
+.info-contained {
+  padding-top: 25px;
+  /* margin-top: 20px; */
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  margin: 0 30px;
+}
+
+.small {
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+#navbar {
+  position: relative;
+}
+
+#navbar > ul {
+  list-style: none;
 }

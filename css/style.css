@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.height {
+  height: 640px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fl {
+  float: left;
+}
+
+/* ------------------------------ */
+
+.top-page-container {
+  background: url("../img/jumbo.png");
+  height: 610px;
+  background-size: cover;
+}
